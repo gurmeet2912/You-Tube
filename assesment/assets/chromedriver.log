@@ -1,0 +1,371 @@
+[1729771648.655][INFO]: Starting ChromeDriver 130.0.6723.69 (3ec172b971b9478c515a58f591112c5c23fa4965-refs/branch-heads/6723@{#1452}) on port 4242
+[1729771648.655][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1729771648.661][INFO]: ChromeDriver was started successfully on port 4242
+[1729771649.274][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--remote-allow-origins=*" ],
+            "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "extensions": [  ]
+         },
+         "goog:loggingPrefs": {
+            "browser": "ALL",
+            "driver": "ALL"
+         }
+      } ]
+   }
+}
+[1729771649.276][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1729771649.277][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1729771649.278][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1729771649.278][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1729771649.279][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-allow-origins=* --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\gillg\AppData\Local\Temp\scoped_dir37936_1842544373" data:,
+[1729771649.973][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1729771649.984][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "130.0.6723.69",
+      "chrome": {
+         "chromedriverVersion": "130.0.6723.69 (3ec172b971b9478c515a58f591112c5c23fa4965-refs/branch-heads/6723@{#1452})",
+         "userDataDir": "C:\\Users\\gillg\\AppData\\Local\\Temp\\scoped_dir37936_1842544373"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:4520"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "ca32c8b15cc6f0af7dc8c02b1557195a"
+}
+[1729771650.153][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] COMMAND MaximizeWindow {
+}
+[1729771650.153][INFO]: Waiting for pending navigations...
+[1729771650.161][INFO]: Done waiting for pending navigations. Status: ok
+[1729771650.187][INFO]: Waiting for pending navigations...
+[1729771650.188][INFO]: Done waiting for pending navigations. Status: ok
+[1729771650.188][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] RESPONSE MaximizeWindow {
+   "height": 881,
+   "width": 1477,
+   "x": -7,
+   "y": -7
+}
+[1729771650.205][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] COMMAND Navigate {
+   "url": "https://www.youtube.com/"
+}
+[1729771650.206][INFO]: Waiting for pending navigations...
+[1729771650.208][INFO]: Done waiting for pending navigations. Status: ok
+[1729771650.498][INFO]: Waiting for pending navigations...
+[1729771653.486][INFO]: Done waiting for pending navigations. Status: ok
+[1729771653.486][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] RESPONSE Navigate
+[1729771653.513][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] COMMAND GetUrl {
+}
+[1729771653.513][INFO]: Waiting for pending navigations...
+[1729771653.683][INFO]: Done waiting for pending navigations. Status: ok
+[1729771653.745][INFO]: Waiting for pending navigations...
+[1729771653.752][INFO]: Done waiting for pending navigations. Status: ok
+[1729771653.752][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] RESPONSE GetUrl "https://www.youtube.com/"
+[1729771656.772][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[text()='About']"
+}
+[1729771656.772][INFO]: Waiting for pending navigations...
+[1729771656.773][INFO]: Done waiting for pending navigations. Status: ok
+[1729771656.788][INFO]: Waiting for pending navigations...
+[1729771656.789][INFO]: Done waiting for pending navigations. Status: ok
+[1729771656.789][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.782D14FBBB516F426AA032E1012190D5.d.487DB7F2ED3A51420858E878FAB85E2E.e.20"
+}
+[1729771656.798][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] COMMAND ClickElement {
+   "id": "f.782D14FBBB516F426AA032E1012190D5.d.487DB7F2ED3A51420858E878FAB85E2E.e.20"
+}
+[1729771656.798][INFO]: Waiting for pending navigations...
+[1729771656.799][INFO]: Done waiting for pending navigations. Status: ok
+[1729771656.887][INFO]: Waiting for pending navigations...
+[1729771658.546][INFO]: Done waiting for pending navigations. Status: ok
+[1729771658.546][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] RESPONSE ClickElement
+[1729771658.553][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//section[contains(@class, 'ytabout__content')]"
+}
+[1729771658.553][INFO]: Waiting for pending navigations...
+[1729771658.554][INFO]: Done waiting for pending navigations. Status: ok
+[1729771658.564][INFO]: Waiting for pending navigations...
+[1729771658.564][INFO]: Done waiting for pending navigations. Status: ok
+[1729771658.565][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.782D14FBBB516F426AA032E1012190D5.d.C10FE1EB696F52026CEDEF6C4952FE2F.e.3"
+} ]
+[1729771658.573][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] COMMAND GetElementText {
+   "id": "f.782D14FBBB516F426AA032E1012190D5.d.C10FE1EB696F52026CEDEF6C4952FE2F.e.3"
+}
+[1729771658.573][INFO]: Waiting for pending navigations...
+[1729771658.574][INFO]: Done waiting for pending navigations. Status: ok
+[1729771658.587][INFO]: Waiting for pending navigations...
+[1729771658.588][INFO]: Done waiting for pending navigations. Status: ok
+[1729771658.588][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] RESPONSE GetElementText "About YouTube\nOur mission is to give everyone a voice and show them the world.\nWe believe that everyone deserves to have a voice, and that the world is a better place when we listen, share and buil..."
+[1729771661.601][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] COMMAND Navigate {
+   "url": "https://www.youtube.com/"
+}
+[1729771661.601][INFO]: Waiting for pending navigations...
+[1729771661.602][INFO]: Done waiting for pending navigations. Status: ok
+[1729771661.784][INFO]: Waiting for pending navigations...
+[1729771663.486][INFO]: Done waiting for pending navigations. Status: ok
+[1729771663.486][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] RESPONSE Navigate
+[1729771666.497][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='sections']//descendant::ytd-guide-section-renderer[3]/div/ytd-guide-entry-renderer[4]"
+}
+[1729771666.497][INFO]: Waiting for pending navigations...
+[1729771666.498][INFO]: Done waiting for pending navigations. Status: ok
+[1729771666.513][INFO]: Waiting for pending navigations...
+[1729771666.513][INFO]: Done waiting for pending navigations. Status: ok
+[1729771666.513][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.782D14FBBB516F426AA032E1012190D5.d.DAE59197E16A84CF303D66B22DA3FEBA.e.18"
+}
+[1729771666.517][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] COMMAND ClickElement {
+   "id": "f.782D14FBBB516F426AA032E1012190D5.d.DAE59197E16A84CF303D66B22DA3FEBA.e.18"
+}
+[1729771666.517][INFO]: Waiting for pending navigations...
+[1729771666.518][INFO]: Done waiting for pending navigations. Status: ok
+[1729771666.584][INFO]: Waiting for pending navigations...
+[1729771666.599][INFO]: Done waiting for pending navigations. Status: ok
+[1729771666.599][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] RESPONSE ClickElement
+[1729771666.603][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] COMMAND GetTitle {
+}
+[1729771666.603][INFO]: Waiting for pending navigations...
+[1729771666.604][INFO]: Done waiting for pending navigations. Status: ok
+[1729771666.626][INFO]: Waiting for pending navigations...
+[1729771666.627][INFO]: Done waiting for pending navigations. Status: ok
+[1729771666.627][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] RESPONSE GetTitle "YouTube"
+[1729771669.644][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='Top selling']"
+}
+[1729771669.644][INFO]: Waiting for pending navigations...
+[1729771669.646][INFO]: Done waiting for pending navigations. Status: ok
+[1729771669.677][INFO]: Waiting for pending navigations...
+[1729771669.679][INFO]: Done waiting for pending navigations. Status: ok
+[1729771669.679][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.782D14FBBB516F426AA032E1012190D5.d.DAE59197E16A84CF303D66B22DA3FEBA.e.45"
+}
+[1729771669.687][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] COMMAND ClickElement {
+   "id": "f.782D14FBBB516F426AA032E1012190D5.d.DAE59197E16A84CF303D66B22DA3FEBA.e.45"
+}
+[1729771669.687][INFO]: Waiting for pending navigations...
+[1729771669.688][INFO]: Done waiting for pending navigations. Status: ok
+[1729771669.798][INFO]: Waiting for pending navigations...
+[1729771669.805][INFO]: Done waiting for pending navigations. Status: ok
+[1729771669.805][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] RESPONSE ClickElement
+[1729771672.827][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] COMMAND Navigate {
+   "url": "https://www.youtube.com/"
+}
+[1729771672.827][INFO]: Waiting for pending navigations...
+[1729771674.481][INFO]: Done waiting for pending navigations. Status: ok
+[1729771674.698][INFO]: Waiting for pending navigations...
+[1729771676.060][INFO]: Done waiting for pending navigations. Status: ok
+[1729771676.060][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] RESPONSE Navigate
+[1729771676.068][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] COMMAND Navigate {
+   "url": "https://www.youtube.com/"
+}
+[1729771676.068][INFO]: Waiting for pending navigations...
+[1729771676.068][INFO]: Done waiting for pending navigations. Status: ok
+[1729771676.250][INFO]: Waiting for pending navigations...
+[1729771678.345][INFO]: Done waiting for pending navigations. Status: ok
+[1729771678.345][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] RESPONSE Navigate
+[1729771679.067][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] COMMAND Navigate {
+   "url": "https://www.youtube.com/"
+}
+[1729771679.067][INFO]: Waiting for pending navigations...
+[1729771679.122][INFO]: Done waiting for pending navigations. Status: ok
+[1729771679.422][INFO]: Waiting for pending navigations...
+[1729771679.422][INFO]: Done waiting for pending navigations. Status: ok
+[1729771679.422][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] RESPONSE Navigate
+[1729771679.431][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[contains(@id, 'search')]"
+}
+[1729771679.431][INFO]: Waiting for pending navigations...
+[1729771679.431][INFO]: Done waiting for pending navigations. Status: ok
+[1729771681.618][INFO]: Waiting for pending navigations...
+[1729771681.688][INFO]: Done waiting for pending navigations. Status: ok
+[1729771681.689][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.782D14FBBB516F426AA032E1012190D5.d.6AE06F36BF28D3CD78EE97ED6050E1A0.e.87"
+}
+[1729771681.697][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] COMMAND TypeElement {
+   "id": "f.782D14FBBB516F426AA032E1012190D5.d.6AE06F36BF28D3CD78EE97ED6050E1A0.e.87",
+   "text": "Movies",
+   "value": [ "M", "o", "v", "i", "e", "s" ]
+}
+[1729771681.697][INFO]: Waiting for pending navigations...
+[1729771681.699][INFO]: Done waiting for pending navigations. Status: ok
+[1729771683.315][INFO]: Waiting for pending navigations...
+[1729771683.330][INFO]: Done waiting for pending navigations. Status: ok
+[1729771683.330][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] RESPONSE TypeElement
+[1729771683.335][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//*[@id='metadata-line']/span[1]"
+}
+[1729771683.335][INFO]: Waiting for pending navigations...
+[1729771683.356][INFO]: Done waiting for pending navigations. Status: ok
+[1729771683.433][INFO]: Waiting for pending navigations...
+[1729771683.436][INFO]: Done waiting for pending navigations. Status: ok
+[1729771683.436][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] RESPONSE FindElements [  ]
+[1729771683.444][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] COMMAND Navigate {
+   "url": "https://www.youtube.com/"
+}
+[1729771683.444][INFO]: Waiting for pending navigations...
+[1729771683.447][INFO]: Done waiting for pending navigations. Status: ok
+[1729771683.705][INFO]: Waiting for pending navigations...
+[1729771686.730][INFO]: Done waiting for pending navigations. Status: ok
+[1729771686.730][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] RESPONSE Navigate
+[1729771686.737][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[contains(@id, 'search')]"
+}
+[1729771686.737][INFO]: Waiting for pending navigations...
+[1729771686.745][INFO]: Done waiting for pending navigations. Status: ok
+[1729771686.784][INFO]: Waiting for pending navigations...
+[1729771686.790][INFO]: Done waiting for pending navigations. Status: ok
+[1729771686.790][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.782D14FBBB516F426AA032E1012190D5.d.AAA14FF8848FBE9F2393D36094967ABE.e.107"
+}
+[1729771686.799][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] COMMAND TypeElement {
+   "id": "f.782D14FBBB516F426AA032E1012190D5.d.AAA14FF8848FBE9F2393D36094967ABE.e.107",
+   "text": "Music",
+   "value": [ "M", "u", "s", "i", "c" ]
+}
+[1729771686.799][INFO]: Waiting for pending navigations...
+[1729771686.802][INFO]: Done waiting for pending navigations. Status: ok
+[1729771688.447][INFO]: Waiting for pending navigations...
+[1729771688.468][INFO]: Done waiting for pending navigations. Status: ok
+[1729771688.468][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] RESPONSE TypeElement
+[1729771688.471][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//*[@id='metadata-line']/span[1]"
+}
+[1729771688.471][INFO]: Waiting for pending navigations...
+[1729771688.494][INFO]: Done waiting for pending navigations. Status: ok
+[1729771688.515][INFO]: Waiting for pending navigations...
+[1729771688.669][INFO]: Done waiting for pending navigations. Status: ok
+[1729771688.669][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] RESPONSE FindElements [  ]
+[1729771688.677][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] COMMAND Navigate {
+   "url": "https://www.youtube.com/"
+}
+[1729771688.677][INFO]: Waiting for pending navigations...
+[1729771688.678][INFO]: Done waiting for pending navigations. Status: ok
+[1729771688.961][INFO]: Waiting for pending navigations...
+[1729771691.216][INFO]: Done waiting for pending navigations. Status: ok
+[1729771691.216][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] RESPONSE Navigate
+[1729771691.222][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[contains(@id, 'search')]"
+}
+[1729771691.222][INFO]: Waiting for pending navigations...
+[1729771691.231][INFO]: Done waiting for pending navigations. Status: ok
+[1729771691.257][INFO]: Waiting for pending navigations...
+[1729771691.264][INFO]: Done waiting for pending navigations. Status: ok
+[1729771691.264][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.782D14FBBB516F426AA032E1012190D5.d.FC910EE60D8819CD6E7846B56F55FA46.e.127"
+}
+[1729771691.268][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] COMMAND TypeElement {
+   "id": "f.782D14FBBB516F426AA032E1012190D5.d.FC910EE60D8819CD6E7846B56F55FA46.e.127",
+   "text": "Games",
+   "value": [ "G", "a", "m", "e", "s" ]
+}
+[1729771691.268][INFO]: Waiting for pending navigations...
+[1729771691.459][INFO]: Done waiting for pending navigations. Status: ok
+[1729771692.749][INFO]: Waiting for pending navigations...
+[1729771692.771][INFO]: Done waiting for pending navigations. Status: ok
+[1729771692.771][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] RESPONSE TypeElement
+[1729771692.778][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//*[@id='metadata-line']/span[1]"
+}
+[1729771692.778][INFO]: Waiting for pending navigations...
+[1729771692.811][INFO]: Done waiting for pending navigations. Status: ok
+[1729771692.835][INFO]: Waiting for pending navigations...
+[1729771692.846][INFO]: Done waiting for pending navigations. Status: ok
+[1729771692.846][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] RESPONSE FindElements [  ]
+[1729771692.864][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] COMMAND CloseWindow {
+}
+[1729771693.173][INFO]: [ca32c8b15cc6f0af7dc8c02b1557195a] RESPONSE CloseWindow [  ]
